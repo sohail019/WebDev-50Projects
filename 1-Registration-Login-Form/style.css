@@ -63,6 +63,10 @@ body {
   margin-bottom: 10px;
 }
 
+.form-control input:focus {
+  outline: none;
+}
+
 .btn {
   background-color: #e2c799;
   border: none;
@@ -71,5 +75,32 @@ body {
   border-radius: 5px;
   font-size: 20px;
   cursor: pointer;
-  margin-top: 20px;
+  display: block;
+  margin: 10px auto;
+  animation: button 1s linear infinite;
+}
+
+.btn:hover {
+  background-color: transparent;
+  color: white;
+  border: 1px solid #e2c799;
+}
+
+@keyframes button {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 100%;
+    padding: 20px;
+  }
 }
