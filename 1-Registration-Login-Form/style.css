@@ -1,5 +1,43 @@
-@import url("https://fonts.googleapis.com/css2?family=Kenia&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Piazzolla:opsz,wght@8..30,300;8..30,400;8..30,500;8..30,600;8..30,700;8..30,800;8..30,900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
 
 body {
-  font-family: "Kenia", sans-serif;
+  background-color: #9a3b3bf5;
+  color: white;
+  font-family: "Piazzolla", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 80px 70px;
+  border: dashed white;
+  border-radius: 15px;
+  align-content: space-between;
+}
+
+.container h1 {
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.container a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.container a:hover {
+  color: #e2c799;
 }
