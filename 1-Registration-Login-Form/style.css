@@ -62,3 +62,14 @@ body {
   font-size: 18px;
   margin-bottom: 10px;
 }
+
+.btn {
+  background-color: #e2c799;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-top: 20px;
+}
