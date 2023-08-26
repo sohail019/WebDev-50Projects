@@ -12,7 +12,7 @@ Welcome to the "Web Development 50 Projects" repository! 🚀 Here, you'll find 
 
 ## Project Ideas
 
-1. <a href="https://github.com/sohail019/WebDev-50Projects/tree/main/1-Registration-Login-Form">Registration & Contact Form</a>
+1. <a href="https://github.com/sohail019/WebDev-50Projects/tree/main/1-Registration-Login-Form">Registration & Login Form</a>
 
 
 Feel free to explore, modify, and customize these project ideas to your liking. Each project is designed to enhance your understanding of web development concepts. Happy coding and enjoy building your skills!
