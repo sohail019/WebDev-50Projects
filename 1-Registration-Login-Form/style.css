@@ -41,30 +41,48 @@ body {
 }
 
 .form-control {
-  background-color: rgba(0, 0, 0, 0.4);
-  border: 1px solid #e2c799;
-  border-radius: 5px;
-  padding: 10px;
-  margin-bottom: 20px;
-  color: white;
+  position: relative;
+  margin: 20px 0 40px;
+  width: 400px;
 }
 
 .form-control input {
   background-color: transparent;
-  border: none;
+  border: 0;
   outline: none;
+  border-bottom: 2px white solid;
+  display: block;
+  padding: 15px 0;
   color: white;
   font-size: 18px;
   width: 100%;
 }
 
+.form-control input:focus,
+.form-control input:valid {
+  border-bottom-color: #e2c799;
+}
+
 .form-control label {
+  position: absolute;
+  top: 15px;
+  left: 0;
+  pointer-events: none;
   font-size: 18px;
   margin-bottom: 10px;
 }
 
-.form-control input:focus {
-  outline: none;
+.form-control label span {
+  display: inline-block;
+  font-size: 18px;
+  min-width: 5px;
+  transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.form-control input:focus + label span,
+.form-control input:valid + label span {
+  color: white;
+  transform: translateY(-30px);
 }
 
 .btn {
@@ -78,6 +96,10 @@ body {
   display: block;
   margin: 10px auto;
   animation: button 1s linear infinite;
+}
+
+.btn:focus {
+  outline: none;
 }
 
 .btn:hover {
