@@ -12,17 +12,8 @@ Welcome to the "Web Development 50 Projects" repository! 🚀 Here, you'll find 
 
 ## Project Ideas
 
-1. Registration & Contact Form [https://github.com/sohail019/WebDev-50Projects/tree/main/1-Registration-Login-Form]
-2. Animated Landing Page
-3. Image Gallery with Lightbox
-4. Sticky Navigation Bar
-5. FAQ Accordion
-6. Countdown Timer
-7. Todo List Application
-8. Animated Login Form
-9. Interactive Pricing Table
-10. Social Media Sharing Buttons
-... (Continue with more ideas)
+1. <a href="https://github.com/sohail019/WebDev-50Projects/tree/main/1-Registration-Login-Form">Registration & Contact Form</a>
+
 
 Feel free to explore, modify, and customize these project ideas to your liking. Each project is designed to enhance your understanding of web development concepts. Happy coding and enjoy building your skills!
 
